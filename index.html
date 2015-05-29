@@ -10,36 +10,614 @@
 
     <div class="container">
 
-        <div class="line row"></div>
-
         <header class="row">
-            <div class="col-lg-4 logo"></div>
-            <div class="col-lg-4 text-left">
-                Сайт по онлайн бронированию <br/>
+            <div class="col-lg-4 col-md-4 col-sm-4 logo"></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 text-left header-title">
+                <strong class="color-0">Сайт по онлайн бронированию</strong> <br/>
                 Более 220 стран. Тысячи городов.
             </div>
-            <div class="col-lg-4">
-                <ul class='header-menu'>
-                    <li>О сайте</li>
-                    <li>Реклама</li>
-                    <li>Контакты</li>
+            <div class="col-lg-4 col-sm-4 col-md-4">
+                <ul class='header-menu list-inline'>
+                    <li class="header-menu-icon-0"><a href="">О сайте</a></li>
+                    <li class="header-menu-icon-1"><a href="">Реклама</a></li>
+                    <li class="header-menu-icon-2"><a href="">Контакты</a></li>
                 </ul>
             </div>
         </header>
 
-        <div class="line-0 row"></div>
-        <div class="line-1 row"></div>
-
         <div class="row menu">
-            <menu class="nav nav-pills nav-justified">
-                <li>Авиабилеты</li>
-                <li>Отели</li>
-                <li>Прокат авто</li>
-                <li>Страхование</li>
-                <li>Экскурсии</li>
-                <li>Все сервисы</li>
+            <menu class="nav nav-pills">
+                <li class="active menu-icon-0">
+                    Авиабилеты
+                </li>
+                <li class="menu-icon-1">
+                    Отели
+                </li>
+                <li class="menu-icon-2">
+                    Прокат авто
+                </li>
+                <li class="menu-icon-3">
+                    Страхование
+                </li>
+                <li class="menu-icon-4">
+                    Экскурсии
+                </li>
+                <li>
+                    Все сервисы
+                </li>
             </menu>
         </div>
+
+        <div class="row order">
+            <div class="col-lg-12 col-md-12 order-form">
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="order-input-title">Откуда</div>
+                        <input type="text" class="form-control" placeholder="Город вылета">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="order-input-title">Куда</div>
+                        <input type="text" class="form-control" placeholder="Город Назначения">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="order-input-title">
+
+                            <div class="row order-input-title">
+                                <div class="col-lg-4 col-md-4 col-sm-4">Туда</div>
+
+                                <div class="col-lg-8 col-md-8 col-sm-8" align="right">
+                                    <label>
+                                        <input type="checkbox"> +3 дня
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <input type="text" class="form-control input-date" placeholder="">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+
+                        <div class="row order-input-title">
+                            <div class="col-lg-4 col-md-4 col-sm-4">Обратно</div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-8" align="right">
+                                <label>
+                                    <input class="input-date" type="checkbox"> в одну сторону
+                                </label>
+                            </div>
+                        </div>
+
+                        <input type="text" class="form-control input-date" placeholder="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12   order-form-fast">
+                <ul class="list-inline">
+                    <li>
+                        <ul class="list-inline">
+                            <li><div class="punkt">1</div></li>
+                            <li>Выберите страну куда хотите отправиться</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list-inline">
+                            <li><div class="punkt">2</div></li>
+                            <li>Выберите подходящий тур по цене</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <select class="form-control">
+                            <option value="0">Выберите страну</option>
+                            <option value="1">Россия</option>
+                            <option value="2">США</option>
+                            <option value="3">Канада</option>
+                            <option value="4">Германия</option>
+                        </select>
+                    </li>
+                    <li>
+                        <button type="button" class="bftn btn-dsefault form-button">Подобрать</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="advantages" class="row">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4" align="right">
+                    <hr/>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 adv-title" align="center">Почему люди выбирают наш сервис?</div>
+                <div class="col-lg-4 col-md-4 col-sm-4" align="left">
+                    <hr/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="i/img1.png" alt=""/><br/>
+                    На нашем портале наиболее широкий охват направлений для Ваших путешествий.
+                    Выберите свой уникальный маршрут!
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="i/img2.png" alt=""/><br/>
+                    Полностью безопасный отдых у нас Вы забаронируете все и сразу по системе все включено!
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="i/img3.png" alt=""/><br/>
+                    Все виды услуг, бронирование авиабилетов, отелей, прокат автомобилей, экскурсии и туры.
+                </div>
+            </div>
+
+        </div>
+
+        <div id="flights" class="row">
+
+
+
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12col-sm-12">
+                      Самые популярные направления перелетов
+                </div>
+            </div>
+                
+            <div class="row flights-blocks">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="flights-blocks-item">
+                        <img src="i/flights/capital-france.jpg" alt=""/>
+                        <div class="flights-blocks-item-title">
+                            <span class="item-title-capital">Париж</span> <br/>
+                            Франция
+                        </div>
+                        <div class="item-list">
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Москвы</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 11 990 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Санкт-Петербурга</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 13 500 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Екатеринбурга</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 16 700 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Ростова</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 14 800 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Самары</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 15 670 P</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="flights-blocks-item">
+                        <img src="i/flights/city-sochi.jpg" alt=""/>
+                        <div class="flights-blocks-item-title">
+                            <span class="item-title-capital">Россия</span> <br/>
+                            Сочи
+                        </div>
+                        <div class="item-list">
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Москвы</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 7900 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Санкт-Петербурга</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 8500 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Екатеринбурга</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 6700 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Ростова</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 4000 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Самары</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 5900 P</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="flights-blocks-item">
+                        <img src="i/flights/crit-grec.jpg" alt=""/>
+                        <div class="flights-blocks-item-title">
+                            <span class="item-title-capital">о.Крит</span> <br/>
+                            Греция
+                        </div>
+                        <div class="item-list">
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Москвы</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 14 990 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Санкт-Петербурга</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 17 500 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Екатеринбурга</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 21 700 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Ростова</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 25 800 P</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">Из Самары</div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" align="right">От 17 670 P</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flights-bot-link">
+                все перелеты
+            </div>
+
+
+
+        </div>
+
+        <div id="companies" class="row stage">
+
+
+                Низские цены на перелеты от ведущих авиаперевозчиков
+
+
+            <div class="row companies-carousel">
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <img src="i/arrow-carousel-left.png" alt=""/>
+                </div>
+
+                <div class="col-lg-10 col-md-10 col-sm-10 carousel-items">
+
+                    <ul class="list-inline">
+                        <li><a href=""><img src="i/companies/aeroflot.jpg" alt=""/></a></li>
+                        <li><a href=""><img src="i/companies/lufthansa.jpg" alt=""/></a></li>
+                        <li><a href=""><img src="i/companies/alitalia.jpg" alt=""/></a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-1 col-md-1 col-sm-1" align="right">
+                    <img src="i/arrow-carousel-right.png" alt=""/>
+                </div>
+            </div>
+            
+            <div class="row companies-full" align="center">
+                <button type="button " class="blue-button">
+                    полный список авиакомпаний
+                </button>
+            </div>
+
+        </div>
+
+        <div id="proposal" class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 pr-title">
+                Лучшие предложения по размещению в отелях мирового класса
+            </div>
+
+            <div class="row pr-price">
+                <div class="col-lg-10 col-lg-offset-1" align="right">
+                    <p>
+                    Самая низкая цена: <span>9,365 RUB</span> <br/>
+                    <span>доступно 09/05/2015</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 pr-items">
+
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <img src="i/proposal/img1.jpg" alt=""/>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 pr-info">
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <span class="pr-hotel-name">Hesperia Madrid</span>
+                                <span class="pr-hotel-rating"></span>
+                                <p><span class="pr-hotel-address">Paseo Castellana 57, Madrid, Madrid, 28046, Испания, (499)272-20-42</span></p>
+                            </div>
+                        </div>
+
+                        <div class="row pr-hotel-about">
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled">
+                                    <li>В районе Шамбери</li>
+                                    <li>Музей Прадо(3 км)</li>
+                                    <li>Стадион &laquo;Сантьяго Бернабеу&raquo;(1,6 км)</li>
+                                    <li>Музей ТиссенаБорнемисы (2,8 км)</li>
+                                    <li>Пуэрто-дель-Соль (2,9 км)</li>
+                                    <li>Парк Буэн-Ретиро (3 км)</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled">
+                                    <li>Количество номеров:171</li>
+                                    <li>3 ресторанов??? </li>
+                                    <li>Фитнес-центр</li>
+                                    <li>Самостоятельная парковка</li>
+                                    <li>Круглосуточный бизнс-центр</li>
+                                    <li>Трансфер до аэропорта</li>
+                                    <li>Присмотр за детьми в номере</li>
+                                    <li>Круглосуточная работа стойки регистрации</li>
+                                    <li>Кофе/чай в холле</li>
+                                    <li>Кондиционер</li>
+                                    <li>Ежедневная уборка номеров</li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row pr-full" align="center">
+                <button type="button " class="blue-button">
+                    все предложения
+                </button>
+            </div>
+
+        </div>
+
+        <div id="partners" class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 part-title">
+                Наши партнеры по бронированию отелей и апартаментов
+            </div>
+
+            <div class="row part-companies">
+                <div class="col-lg-4">
+                    <a href=""><img src="i/partners/img1.jpg" alt=""/></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href=""><img src="i/partners/img2.jpg" alt=""/></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href=""><img src="i/partners/img3.jpg" alt=""/></a>
+                </div>
+            </div>
+
+
+            <div class="row tour">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <p><span class="tour-title">Туры в зарубежные страны</span></p>
+                    <img src="i/partners/tour/img1.jpg" alt=""/>
+                    <p>Турция от <span class="tour-price">94 600 руб.</span></p>
+                    <p>
+                        <span>
+                            По системе "все включено" для 2 человек.<br/>
+                            Прямой перелет из Москвы. <br/>
+                            13 дней 12 ночей.<br/>
+                        </span>
+                        <a href="">
+                            Посмотреть все туры &nbsp;
+                            <img src="i/arrow-look.png" alt=""/>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <p><span class="tour-title">Туры по России</span></p>
+                    <img src="i/partners/tour/img2.jpg" alt=""/>
+                    <p>Турция от <span class="tour-price">94 600 руб.</span></p>
+                    <p>
+                        <span>
+                            Для 2 человек с проживание в отеле 3 звезды. <br/>
+                            Прямой перелет из Краснодара.<br/>
+                            5 дней 4 ночи. <br/>
+                        </span>
+                        <a href="">
+                            Посмотреть все туры &nbsp;
+                            <img src="i/arrow-look.png" alt=""/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="map" class="row">
+
+            <div class="col-lg-3">
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a href="">
+                            <img src="i/map/img1.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="col-lg-10" align="left">
+                        <a href="">Страны</a>
+                        <ul class="list-unstyled">
+                            <li>Австралия</li>
+                            <li>Испания</li>
+                            <li>Бельгия</li>
+                            <li>Тайланд</li>
+                            <li>Черногория</li>
+                            <li>Новая Зеландия</li>
+                            <li>Люксембург</li>
+                            <li>Великобритания</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a href="">
+                            <img src="i/map/img2.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="col-lg-10" align="left">
+                        <a href="">Города</a>
+                        <ul class="list-unstyled">
+                            <li>Кельн</li>
+                            <li>Барселона</li>
+                            <li>Стамбул</li>
+                            <li>Рим</li>
+                            <li>Будапешт</li>
+                            <li>Окленд</li>
+                            <li>Кейптаун</li>
+                            <li>Москва</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a href="">
+                            <img src="i/map/img3.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="col-lg-10" align="left">
+                        <a href="">Курорты</a>
+                        <ul class="list-unstyled">
+                            <li>Паланга</li>
+                            <li>Ситжес</li>
+                            <li>Анталья</li>
+                            <li>Крым</li>
+                            <li>Лутраки</li>
+                            <li>Мальдивы</li>
+                            <li>Шарм-аль-Шейх</li>
+                            <li>Северный Кавказ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a href="">
+                            <img src="i/map/img4.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="col-lg-10" align="left">
+                        <a href="">Что посмотреть</a>
+                        <ul class="list-unstyled">
+                            <li>Пирамиды Хеопса</li>
+                            <li>Ниагарский водопад</li>
+                            <li>Храм Спаса на Крови</li>
+                            <li>Коллизей</li>
+                            <li>Янтарная Комната</li>
+                            <li>Петропавловская Крепость</li>
+                            <li>Эрмитаж</li>
+                            <li>Статуя Свободы</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="row">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <p>О сервисе</p>
+                    <ul class="list-unstyled">
+                        <li>Правила использования</li>
+                        <li>Соглашение</li>
+                        <li>Как работает</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p>Информация</p>
+                    <ul class="list-unstyled">
+                        <li>Помощь</li>
+                        <li>Контакты</li>
+                        <li>Блог</li>
+                        <li>Статьи</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p>Пользователям</p>
+                    <ul class="list-unstyled">
+                        <li>Гарантии</li>
+                        <li>Договор-оферта</li>
+                        <li>Подписка</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p>Возможности сервиса</p>
+
+                    <ul class="list-inline">
+                        <li>
+
+                            <ul class="list-unstyled">
+                                <li>Авиабилеты</li>
+                                <li>Отели</li>
+                                <li>Прокат авто</li>
+                                <li>Страхование</li>
+                                <li>Экскурсии</li>
+                            </ul>
+
+                        </li>
+                        <li>
+
+                            <ul class="list-unstyled">
+                                <li>Визы</li>
+                                <li>Трансферы</li>
+                                <li>Апартаенты</li>
+                                <li>Туры</li>
+                                <li>Круизы</li>
+                            </ul>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <div class="row desc">
+                <div class="col-lg-12">
+                    Сервис TURISTGID.RU не является тероператором и не заниается продажей и обслуживанием туров и прочих услуг, вся информация представленная на сайте носит рекомендательный характер.</br>
+                    Информация по бронированию предоставляется по договору-оферте. Все рекомендованные сервисы являются прямыми партнерами нашего портала.
+                </div>
+            </div>
+
+        </footer>
+
 
     </div>
 </body>
